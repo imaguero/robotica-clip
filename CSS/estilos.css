@@ -1,14 +1,33 @@
-h1, h3, p, li {
+h3, li, h1, form {
     text-align: left;
-    margin: 20px;
+    margin: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
+.li-css {
+    margin: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+p, b {
+    margin: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+
 table, th, td {
-    margin: 20px;
-    border: 1px solid black;
+    margin: 10px;
+    border: 2px solid black;
     border-collapse: collapse;
     border-spacing: 10px;
     padding: 5px;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 30px;
 }
 
 th {
@@ -37,7 +56,9 @@ img {
 
 header {
     background-color: rgba(131, 149, 167,1.0);
-    margin: 20px;
+    margin: 50px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .cita-textual {
@@ -53,47 +74,9 @@ header {
 }
 
 nav {
-    margin: 20px;
-}
-
-.poliarticulado {
-    padding: 20px;
-    margin: 5px;
-    border: 2px solid black;
-    float: left;
-    width: 250px;
-}
-
-.moviles {
-    padding: 10px;
-    margin: 10px;
-    border: 2px solid black;
-    float: left;
-    width: 250px;
-}
-
-.androides {
-    padding: 10px;
-    margin: 10px;
-    border: 2px solid black;
-    float: left;
-    width: 250px;
-}
-
-.zoomorficos {
-    padding: 10px;
-    margin: 10px;
-    border: 2px solid black;
-    float: left;
-    width: 250px;
-}
-
-.hibridos {
-    padding: 10px;
-    margin: 10px;
-    border: 2px solid black;
-    float: left;
-    width: 250px;
+    margin: 18px;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 button {
@@ -105,13 +88,30 @@ div {
 }
 
 footer {
-    padding: 60px;
-    
+    text-align: center;
 }
 
-.footer {
-    height: 100px;
-    margin: auto;
-    width: 1020px;
-}
+.poliarticulado {
+    max-width: 650px;
+    height: auto;
+    }
 
+.moviles {
+    max-width: 650px;
+    height: auto;
+    }
+
+.androides {
+    max-width: 650px;
+    height: auto;
+    }
+
+.zoomorficos {
+    max-width: 650px;
+    height: auto;
+    }
+
+.hibridos {
+    max-width: 650px;
+    height: auto;
+    }

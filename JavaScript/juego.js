@@ -5,7 +5,7 @@ var numerom = Math.random()*(max-min) + min;
 numerom = parseInt(numerom);
 
 while(true){
-    var usuario = prompt("Bienvenido! Responde a la siguiente pegunta: Cuantas generaciones de Robots existen? Coloca un número para adivinar. Sólo tienes 4 intentos posibles.");
+    var usuario = prompt("Bienvenido! Responde a la siguiente pegunta: Cuantas generaciones de Robots existen? Coloca un número para adivinar. Sólo tienes 4 intentos posibles. (Presiona 0 si deseas omitir esta adivinanza)");
 
 if(usuario == numerom){
     alert("Has Acertado!");

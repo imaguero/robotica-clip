@@ -13,28 +13,34 @@
 </head>
 <body id="id-body" class="container">
     <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-sm bg-dark">
-        <a class="navbar-brand" href="http://127.0.0.1:5500/index.html">
-            <img src="/Imagenes/Iconos/home-solid.svg" alt="logo" style="width:50px;">
-        </a>
-        <ul class="navbar-nav">
-            <li class="nav-item">
-                <a class="nav-link" href="http://127.0.0.1:5500/historia.html">Historia</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="http://127.0.0.1:5500/clasificacion.html">Clasificación</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="http://127.0.0.1:5500/juego.html">Juego</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="http://127.0.0.1:5500/contacto.html">Contacto</a>
-            </li>
-        </ul>
+    <nav class="container">
+        <nav class="row">
+            <nav class="col">
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                    <a class="navbar-brand" href="http://127.0.0.1:5500/index.html">
+                    <img src="/Imagenes/Iconos/home-solid.svg" alt="logo" style="width:50px;">
+                    </a>
+                <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="http://127.0.0.1:5500/historia.html">Historia</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="http://127.0.0.1:5500/clasificacion.html">Clasificación</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="http://127.0.0.1:5500/contacto.html">Contacto</a>
+                </li>
+            </ul>
+                </nav>
+            </nav>
+        </nav>
     </nav>
     <header>
     <h1>Clasificación de los robots</h1>
     </header>
+    <div class="container">
+        <div class="row">
+            <div class="col">
         <ul>
             <li><a href="#C1">Según su cronología</a></li>
             <ul>
@@ -64,25 +70,25 @@
         <h3 id="E1">Según su estructura</h3>
         <p>La estructura es definida por el tipo de configuración general del robot, puede ser metamórfica. El concepto de metamorfismo, de reciente aparición, se ha introducido para incrementar la flexibilidad funcional de un robot a través del cambio de su configuración por el propio robot. El metamorfismo admite diversos niveles, desde los más elementales (cambio de herramienta o de efecto terminal), hasta los más complejos como el cambio o alteración de algunos de sus elementos o subsistemas estructurales. Los dispositivos y mecanismos que pueden agruparse bajo la denominación genérica del robot, tal como se ha indicado, son muy diversos y es por tanto difícil establecer una clasificación coherente de los mismos que resista un análisis crítico y riguroso. La subdivisión de los robots, con base en su arquitectura, se hace en los siguientes grupos: poliarticulados, móviles, androides, zoomórficos e híbridos.</p>
         <ol>
-            <li><b id="P1">Poliarticulados</b></li>
-            <p><img class="poliarticulado" src="/Imagenes/Robots/robot-poliarticulado.png" alt="Robot Poliarticulado" style="float:left; width:25%; height:25%">En este grupo se encuentran los robots de muy diversa forma y configuración, cuya característica común es la de ser básicamente sedentarios (aunque excepcionalmente pueden ser guiados para efectuar desplazamientos limitados) y estar estructurados para mover sus elementos terminales en un determinado espacio de trabajo según uno o más sistemas de coordenadas, y con un número limitado de grados de libertad. En este grupo se encuentran los robots manipuladores, los robots industriales y los robots cartesianos, que se emplean cuando es preciso abarcar una zona de trabajo relativamente amplia o alargada, actuar sobre objetos con un plano de simetría vertical o reducir el espacio ocupado en el suelo.</p><br><br><br><br><br>
-            <li><b id="M1">Móviles</b></li>
-            <p><img class="moviles" src="/Imagenes/Robots/robot-movil.png" alt="Robot Móvil">Son Robots con gran capacidad de desplazamiento, basados en carros o plataformas y dotados de un sistema locomotor de tipo rodante. Siguen su camino por telemando o guiándose por la información recibida de su en torno a través de sus sensores. Estos robots aseguran el transporte de piezas de un punto a otro de una cadena de fabricación. Guiados mediante pistas materializadas a través de la radiación electromagnética de circuitos empotrados en el suelo, o a través de bandas detectadas fotoeléctricamente, pueden incluso llegar a sortear obstáculos y están dotados de un nivel relativamente elevado de inteligencia.</p><br><br><br>
-            <li><b id="A1">Androides</b></li>
-            <p><img class="androides" src="/Imagenes/Robots/robot-androide.jpg" alt="robot Androide">Son los tipos de robots que intentan reproducir total o parcialmente la forma y el comportamiento cinemático del ser humano. Actualmente, los androides son todavía dispositivos muy poco evolucionados y sin utilidad práctica, y destinados, fundamentalmente, al estudio y experimentación. Uno de los aspectos más complejos de estos robots, y sobre el que se centra la mayoría de los trabajos, es el de la locomoción bípeda. En este caso, el principal problema es controlar dinámica y coordinadamente en el tiempo real el proceso y mantener simultáneamente el equilibrio del Robot. Vulgarmente se los suele llamar "marionetas" cuando se les ven los cables que permiten ver cómo realiza sus procesos.</p><br>
-            <li><b id="Z1">Zoomórficos</b></li>
+            <li class="li-css"><b id="P1">Poliarticulados</b></li>
+            <p><img class="poliarticulado" src="/Imagenes/Robots/robot-poliarticulado.png" alt="Robot Poliarticulado">En este grupo se encuentran los robots de muy diversa forma y configuración, cuya característica común es la de ser básicamente sedentarios (aunque excepcionalmente pueden ser guiados para efectuar desplazamientos limitados) y estar estructurados para mover sus elementos terminales en un determinado espacio de trabajo según uno o más sistemas de coordenadas, y con un número limitado de grados de libertad. En este grupo se encuentran los robots manipuladores, los robots industriales y los robots cartesianos, que se emplean cuando es preciso abarcar una zona de trabajo relativamente amplia o alargada, actuar sobre objetos con un plano de simetría vertical o reducir el espacio ocupado en el suelo.</p>
+            <li class="li-css"><b id="M1">Móviles</b></li>
+            <p><img class="moviles" src="/Imagenes/Robots/robot-movil.png" alt="Robot Móvil">Son Robots con gran capacidad de desplazamiento, basados en carros o plataformas y dotados de un sistema locomotor de tipo rodante. Siguen su camino por telemando o guiándose por la información recibida de su en torno a través de sus sensores. Estos robots aseguran el transporte de piezas de un punto a otro de una cadena de fabricación. Guiados mediante pistas materializadas a través de la radiación electromagnética de circuitos empotrados en el suelo, o a través de bandas detectadas fotoeléctricamente, pueden incluso llegar a sortear obstáculos y están dotados de un nivel relativamente elevado de inteligencia.</p>
+            <li class="li-css"><b id="A1">Androides</b></li>
+            <p><img class="androides" src="/Imagenes/Robots/robot-androide.jpg" alt="robot Androide">Son los tipos de robots que intentan reproducir total o parcialmente la forma y el comportamiento cinemático del ser humano. Actualmente, los androides son todavía dispositivos muy poco evolucionados y sin utilidad práctica, y destinados, fundamentalmente, al estudio y experimentación. Uno de los aspectos más complejos de estos robots, y sobre el que se centra la mayoría de los trabajos, es el de la locomoción bípeda. En este caso, el principal problema es controlar dinámica y coordinadamente en el tiempo real el proceso y mantener simultáneamente el equilibrio del Robot. Vulgarmente se los suele llamar "marionetas" cuando se les ven los cables que permiten ver cómo realiza sus procesos.</p>
+            <li class="li-css"><b id="Z1">Zoomórficos</b></li>
             <p><img class="zoomorficos" src="/Imagenes/Robots/robot-zoomorfico.jpg" alt="Robot Zoomórfico">Los robots zoomórficos, que considerados en sentido no restrictivo podrían incluir también a los androides, constituyen una clase caracterizada principalmente por sus sistemas de locomoción que imitan a los diversos seres vivos. A pesar de la disparidad morfológica de sus posibles sistemas de locomoción es conveniente agrupar a los Robots zoomórficos en dos categorías principales: caminadores y no caminadores. El grupo de los robots zoomórficos no caminadores está muy poco evolucionado. Los experimentos efectuados en Japón basados en segmentos cilíndricos biselados acoplados axialmente entre sí y dotados de un movimiento relativo de rotación. Los Robots zoomórficos caminadores multípedos son muy numerosos y están siendo objeto de experimentos en diversos laboratorios con vistas al desarrollo posterior de verdaderos vehículos terrenos, pilotados o autónomos, capaces de evolucionar en superficies muy accidentadas. Las aplicaciones de estos robots serán interesantes en el campo de la exploración espacial y en el estudio de los volcanes.</p>
-            <li><b id="H1">Híbridos</b></li>
+            <li class="li-css"><b id="H1">Híbridos</b></li>
             <p><img class="hibridos" src="/Imagenes/Robots/robot-hibrido.jpg" alt="Robot Híbrio">Estos robots corresponden a aquellos de difícil clasificación, cuya estructura se sitúa en combinación con alguna de las anteriores ya expuestas, bien sea por conjunción o por yuxtaposición. Por ejemplo, un dispositivo segmentado articulado y con ruedas es, al mismo tiempo, uno de los atributos de los robots móviles y de los robots zoomórficos.</p>
         </ol>
-        <br><br><br><br><br><br>
+    </div>
+        </div>
+            </div>
     <!-- ASIDE -->
     <aside></aside>
     <!-- FOOTER -->
-    <footer>
-        <div class="footer"></div>
-    <strong>Copyright 2020</strong>
-        </div>
+    <footer class="container p-3 my-3 bg-dark text-white">
+        <strong>Copyright 2020</strong>
     </footer>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
